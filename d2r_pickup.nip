@@ -1,3 +1,6 @@
+//
+// 2022년 10월 1일 버전
+//
 //==================================================================//
 //<<<<<<<<<<<<<<<<<<<<<<<<<<++++ Misc ++++>>>>>>>>>>>>>>>>>>>>>>>>>>//
 //==================================================================//
@@ -27,33 +30,33 @@
 
 [Name] == Scrolloftownportal
 [Name] == Scrollofidentify
-[Type] == Gold # [Gold] >= 500
+[Type] == Gold # [Gold] >= 500  // 금 모아서 도박하자!
 
 
 //-----------------------------------------------------------------------
 //================= Unique Charms(까는 재미를 위해 미확인 그대로!!) ================
 //-----------------------------------------------------------------------
 
-[name] == SmallCharm && [Quality] == Unique
+[name] == SmallCharm && [Quality] == Unique // 애니참
 [name] == LargeCharm && [Quality] == Unique // 횃불
-[name] == GrandCharm && [Quality] == Unique // 기드참(매찬 40이상 - 으뜸)
+[name] == GrandCharm && [Quality] == Unique // 기드참
 
 //---------------------------------------------------
 //================= Ubers(KEYS-횃불 키)=================
 //---------------------------------------------------
 
-// [Name] == KeyOfTerror
-// [Name] == KeyOfHate
-// [Name] == KeyOfDestruction
+[Name] == KeyOfTerror
+[Name] == KeyOfHate
+[Name] == KeyOfDestruction
 
 //------------------------------------------------------
 //================= Tokens(정수 - 스킬초기화)================= 
 //------------------------------------------------------
 
-// [Name] == TwistedEssenceOfSuffering
-// [Name] == ChargedEssenceOfHatred
-// [Name] == BurningEssenceOfTerror
-// [Name] == FesteringEssenceOfDestruction
+[Name] == TwistedEssenceOfSuffering
+[Name] == ChargedEssenceOfHatred
+[Name] == BurningEssenceOfTerror
+[Name] == FesteringEssenceOfDestruction
 
 //-----------------------------------------------------------
 //================= Runes(룬 - 모두 모아서 큐빙하자) ================
@@ -143,11 +146,11 @@
 //----------------------------------------------------------------
 //================= Unique Rings, AMULETS, JEWELS ================
 //----------------------------------------------------------------
-[Type] == Ring && [Quality] == Unique # [Itemmagicbonus] == 30     // 나겔링
-[Type] == Ring && [Quality] == Unique # [Hpregen] == 8 && [Manaleech] == 7      // 마날드
+[Type] == Ring && [Quality] == Unique # [Itemmagicbonus] >= 29   // 나겔링(매찬 29이상만)
+[Type] == Ring && [Quality] == Unique # [Hpregen] >= 7 && [Manaleech] == 7  // 마날드(라회 7, 마흡 7)
 [Type] == Ring && [Quality] == Unique # [Itemmaxmanapercent] >= 25       // 조던
-[Type] == Ring && [Quality] == Unique # [Maxhp] >= 35 && [Magicdamagereduction] == 15     	// 왜성
-[Type] == Ring && [Quality] == Unique # [Dexterity] >= 19 && [Tohit] >= 240      // 칠흑 서리(레이븐 프로스트링)
+[Type] == Ring && [Quality] == Unique # [Maxhp] >= 35 && [Magicdamagereduction] >= 14  // 왜성(드워프 스타링) - 라이프 35이상, 마법 데미지 감소 14이상
+[Type] == Ring && [Quality] == Unique # [Dexterity] >= 19 && [Tohit] >= 240      // 칠흑 서리(레이븐 프로스트링) - 민첩 19이상, 공격등급 240이상
 [Type] == Ring && [Quality] == Unique # [Lifeleech] >= 4 && [Itemallskills] == 1      // 불카토스 결혼반지
 [Type] == Ring && [Quality] == Unique # [Poisonresist] >= 29 && [Normaldamagereduction] >= 10     // 네이쳐스 피스
 [Type] == Ring && [Quality] == Unique # [Itemabsorblightpercent] >= 18 && [Itemmagicbonus] >= 19      	// 위스프 프로젝터
@@ -162,6 +165,8 @@
 // [Name] == Jewel && [Quality] == Unique # [Passivefiremastery] + [Passivefirepierce] >= 9   // Rainbow Facet Fire
 // [Name] == Jewel && [Quality] == Unique # [Passiveltngmastery] + [Passiveltngpierce] >= 9   // Rainbow Facet Light
 // [Name] == Jewel && [Quality] == Unique # [Passivepoismastery] + [Passivepoispierce] >= 9   // Rainbow Facet Poison
+
+// 모든 유니크 쥬얼
 [Name] == Jewel && [Quality] == Unique
 
 
