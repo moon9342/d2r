@@ -770,8 +770,8 @@
 [Name] == BerserkerAxe && [Quality] == Superior && [Flag] != Ethereal # [Sockets] == 5
 
 // 마지막 소원(슴딘 최종 템) - 6소켓
-[Name] == PhaseBlade && [Quality] == Normal && [Flag] != Ethereal # ([Sockets] == 0 || [Sockets] == 6)
-[Name] == PhaseBlade && [Quality] == Superior && [Flag] != Ethereal # ([Sockets] == 0 || [Sockets] == 6)
+// [Name] == PhaseBlade && [Quality] == Normal && [Flag] != Ethereal # ([Sockets] == 0 || [Sockets] == 6)
+// [Name] == PhaseBlade && [Quality] == Superior && [Flag] != Ethereal # ([Sockets] == 0 || [Sockets] == 6)
 
 // 죽음의 숨결 - 6소켓
 [Name] == ColossusBlade && [Quality] == Superior && [Flag] == Ethereal # ([Sockets] == 0 || [Sockets] == 6)
