@@ -245,7 +245,7 @@
 //-------------------------------------------------
 [Name] == Monarch && [Quality] == Unique && [Flag] != Ethereal # [DamageResist] >= 35    // Stormshield
 [Name] == Pavise && [Quality] == Unique && [Flag] != Ethereal # [Enhanceddefense] == 180 && [Allres] >= 20      // Gerke's Sanctuary
-[Name] == Grimshield && [Quality] == Unique // Lidless Wall
+// [Name] == Grimshield && [Quality] == Unique // Lidless Wall
 
 
 //------------------------------------------------
