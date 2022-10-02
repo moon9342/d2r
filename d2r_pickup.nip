@@ -725,8 +725,11 @@
 // -----------------------------------------
 
 // 다시 정리
-// 방패
 
+// 다이어뎀은 일단 줍자!
+[Name] == Diadem
+
+// 방패
 // 모너크( 3소켓 : 꿈, 4소켓 : 영혼(sprit), 불사조 )
 // 모너크는 고급만 줏자. (에테는 무쓸모)
 [Name] == Monarch && [Quality] == Superior && [Flag] != Ethereal # [EnhancedDefense] >= 15 && ([Sockets]==0 || [Sockets]==3 || [Sockets]==4)
